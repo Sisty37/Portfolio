@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta name="theme-color" content="#1c1917" />
+  <title>Abu Jafar Sisty</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <!-- =======================================
+       Header / Navigation + Dark Mode Toggle
+       ======================================= -->
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <div class="logo">SISY<span>.</span></div>
+
+      <nav class="nav" id="nav">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Dark mode toggle -->
+        <button id="theme-toggle" class="icon-button" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- Mobile menu button -->
+        <button id="menu-toggle" class="icon-button menu-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================
+       Hero / Intro Section
+       ====================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Hi, I'm</p>
+        <h1 class="hero-title">ABU JAFAR SISTY</h1>
+        <h2 class="hero-subtitle">DevOps Enthusiast | Cloud & Automation Learner</h2>
+        <p class="hero-text">
+          DevOps Enthusiast focused on Cloud Infrastructure, Automation, and CI/CD pipelines. 
+          I build scalable environments using Linux, Docker, and Git, and continuously 
+          improve deployment workflows through modern DevOps practices.
+        </p>
+
+        <!-- Social icons (colorful circular) -->
+        <div class="hero-socials">
+          <a href="https://github.com/Sisty37" target="_blank" rel="noopener noreferrer"
+             aria-label="GitHub" class="social-link social-github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/abu-jafar-sisty-3a2396328/" target="_blank" rel="noopener noreferrer"
+             aria-label="LinkedIn" class="social-link social-linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/Chishtiii" target="_blank" rel="noopener noreferrer"
+             aria-label="Facebook" class="social-link social-facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn"><span>View Projects</span></a>
+          <a href="#contact" class="btn ghost-btn"><span>Contact Me</span></a>
+        </div>
+      </div>
+
+      <!-- Profile image -->
+      <div class="hero-image-wrapper">
+        <div class="hero-image">
+          <img src="/Asset/My Image.JPG" alt="Abu Jafar Sisty" class="profile-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================
+       About Me Section
+       ====================== -->
+ <section class="section scroll-section" id="about">
+  <div class="container section-inner about-inner">
+    <div class="about-image-wrapper scroll-layer layer-1">
+      <div class="about-image">
+        <img src="/Asset/My Image2.jpeg" alt="Abu Jafar Sisty" class="about-profile-image">
+      </div>
+    </div>
+
+    <div class="about-content">
+      <h2 class="section-title section-title-about scroll-layer layer-1">About Me</h2>
+
+      <p class="scroll-layer layer-2">
+        I am a DevOps Enthusiast passionate about Cloud Infrastructure, Automation,
+        and modern deployment practices. I focus on building scalable, reliable,
+        and efficient systems using Linux, Git, Docker, and CI/CD pipelines.
+      </p>
+
+      <p class="scroll-layer layer-3">
+        I continuously explore cloud platforms, containerization, and infrastructure
+        management to improve software delivery speed and system stability.
+        My goal is to become a skilled DevOps Engineer who bridges development
+        and operations through automation and smart workflows.
+      </p>
+
+      <div class="about-highlights">
+        <div class="highlight-card scroll-layer layer-4">
+          <h3>Cloud & Infrastructure</h3>
+          <p>
+            Learning cloud platforms, virtual machines, networking basics,
+            and infrastructure fundamentals.
+          </p>
+        </div>
+        <div class="highlight-card scroll-layer layer-5">
+          <h3>Automation & CI/CD</h3>
+          <p>
+            Practicing Git workflows, Docker containerization, and CI/CD
+            pipelines to automate build, test, and deployment processes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ======================
+       Skills Section
+       ====================== -->
+  <section class="section scroll-section" id="skills">
+    <div class="container section-inner">
+      <div class="section-header">
+        <h2 class="section-title section-title-skills scroll-layer layer-1">Skills</h2>
+        <p class="section-description scroll-layer layer-2">
+          A practical overview of the cloud platforms, automation tools, and DevOps technologies 
+          I use to build, deploy, and manage scalable and reliable systems.
+        </p>
+      </div>
+
+    <!-- Skills grid -->
+<div class="skills-grid">
+
+  <div class="skill-card scroll-layer layer-card" data-layer>
+    <i class="fa-brands fa-linux skill-icon skill-linux"></i>
+    <h3>Linux</h3>
+    <p>Command-line operations, file systems, process management, and server basics.</p>
+  </div>
+  <div class="skill-card scroll-layer layer-card" data-layer>
+    <i class="fa-brands fa-git-alt skill-icon skill-git"></i>
+    <h3>Git & GitHub</h3>
+    <p>Version control, branching strategies, pull requests, and collaboration workflows.</p>
+  </div>
+  <div class="skill-card scroll-layer layer-card" data-layer>
+    <i class="fa-brands fa-docker skill-icon skill-docker"></i>
+    <h3>Docker</h3>
+    <p>Containerization, image building, Dockerfiles, and container orchestration basics.</p>
+  </div>
+  <div class="skill-card scroll-layer layer-card" data-layer>
+    <i class="fa-solid fa-gears skill-icon skill-cicd"></i>
+    <h3>CI/CD</h3>
+    <p>Automating build, test, and deployment pipelines for faster delivery.</p>
+  </div>
+  <div class="skill-card scroll-layer layer-card" data-layer>
+    <i class="fa-solid fa-cloud skill-icon skill-cloud"></i>
+    <h3>Cloud Platforms</h3>
+    <p>Learning cloud infrastructure, virtual machines, networking, and deployment models.</p>
+  </div>
+  <div class="skill-card scroll-layer layer-card" data-layer>
+    <i class="fa-solid fa-server skill-icon skill-server"></i>
+    <h3>Server Management</h3>
+    <p>Basic server setup, SSH access, environment configuration, and monitoring.</p>
+  </div>
+
+  <div class="skill-card">
+    <i class="fa-solid fa-code-branch skill-icon"></i>
+    <h3>Automation</h3>
+    <p>Shell scripting and workflow automation to reduce manual tasks.</p>
+  </div>
+
+  <div class="skill-card">
+    <i class="fa-solid fa-network-wired skill-icon"></i>
+    <h3>Networking Basics</h3>
+    <p>Understanding IP, DNS, ports, and system communication fundamentals.</p>
+  </div>
+
+</div>
+
+    </div>
+  </section>
+
+  <!-- ======================
+       Projects Section
+       ====================== -->
+  <section class="section scroll-section" id="projects">
+    <div class="container section-inner">
+      <div class="section-header">
+        <h2 class="section-title section-title-projects scroll-layer layer-1">Projects</h2>
+        <p class="section-description scroll-layer layer-2">
+          A selection of projects that showcase my skills, from real-world
+          applications to polished front-end experiments.
+        </p>
+      </div>
+
+      <!-- Project cards grid -->
+      <div class="projects-grid">
+        <article class="project-card scroll-layer layer-card" data-layer>
+          <div class="project-image">
+            <div class="project-image-placeholder">Project Screenshot</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">React Portfolio Website</h3>
+            <p class="project-description">
+              A responsive portfolio site built with React and styled-components,
+              featuring animated sections and reusable UI components.
+            </p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Styled Components</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="https://example.com" target="_blank" rel="noreferrer" class="btn small-btn primary-btn">
+                <span>Live Demo</span>
+              </a>
+              <a href="https://github.com/your-username/portfolio" target="_blank" rel="noreferrer"
+                class="btn ghost-btn small-btn">
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card scroll-layer layer-card" data-layer>
+          <div class="project-image">
+            <div class="project-image-placeholder">Project Screenshot</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-Commerce UI</h3>
+            <p class="project-description">
+              A modern e-commerce front-end built with React, Redux, and Tailwind,
+              including product filtering, cart management, and responsive grids.
+            </p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Redux</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://example.com" target="_blank" rel="noreferrer" class="btn small-btn">
+                Live Demo
+              </a>
+              <a href="https://github.com/your-username/ecommerce-ui" target="_blank" rel="noreferrer"
+                class="btn ghost-btn small-btn">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card scroll-layer layer-card" data-layer>
+          <div class="project-image">
+            <div class="project-image-placeholder">Project Screenshot</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Dashboard Analytics</h3>
+            <p class="project-description">
+              A responsive analytics dashboard with dynamic charts, dark mode, and
+              modular card components, built with React and modern CSS.
+            </p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Charts</span>
+              <span>Dark Mode</span>
+            </div>
+            <div class="project-links">
+              <a href="https://example.com" target="_blank" rel="noreferrer" class="btn small-btn">
+                Live Demo
+              </a>
+              <a href="https://github.com/your-username/dashboard-analytics" target="_blank"
+                rel="noreferrer" class="btn ghost-btn small-btn">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================
+       Contact Section
+       ====================== -->
+  <section class="section scroll-section" id="contact">
+    <div class="container section-inner contact-inner">
+      <div class="section-header">
+        <h2 class="section-title section-title-contact scroll-layer layer-1">Contact</h2>
+        <p class="section-description scroll-layer layer-2">
+          Have a question, a project idea, or want to collaborate? Send me a
+          message and I'll get back to you as soon as I can.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-details scroll-layer layer-3">
+          <h3>Let's work together</h3>
+          <p>
+            I'm open to freelance work, full-time opportunities, and interesting
+            collaborations. Feel free to reach out through the form or directly
+            via email.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:youremail@example.com">abujafarsisty@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+1234567890">+8801849365043</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/Sisty37?fbclid=IwAR0SkKvGobvZXmnV1N3RjCsGN9Ot3_e7LX_ELfnTvTmXrW047Y2NaudA3rI" target="_blank" rel="noreferrer">
+                github.com/Sisty37
+              </a>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/abu-jafar-sisty-3a2396328/" target="_blank" rel="noreferrer">
+                linkedin.com/in/abu-jafar-sisty
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form scroll-layer layer-4" id="contact-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Abu Jafar Sisty" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@gmail.com" required />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn form-btn">
+            <span>Send Message</span>
+          </button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================
+       Footer
+       ====================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Abu Jafar Sisty. All rights reserved.</p>
+      <a href="#top" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+        <span>Back to top</span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
+
